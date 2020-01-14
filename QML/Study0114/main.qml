@@ -5,12 +5,16 @@ Window {
     visible: true
     width: 640
     height: 480
-    title: qsTr("Hello World")
+    //title: qsTr("Hello World")
 
     MainForm {
-        anchors.fill: parent
-        mouseArea.onClicked: {
-            Qt.quit();
+        Button {
+            x: 100;
+            y: 120;
         }
+//        anchors.fill: parent
+//        mouseArea.onClicked: {
+//            Qt.quit();
+//        }
     }
 }
