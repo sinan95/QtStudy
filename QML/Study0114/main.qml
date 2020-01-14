@@ -13,6 +13,4 @@ Window {
             Qt.quit();
         }
     }
-
-
 }
