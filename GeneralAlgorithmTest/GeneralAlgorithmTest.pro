@@ -15,6 +15,11 @@ TEMPLATE = app
 SOURCES += main.cpp\
         widget.cpp
 
-HEADERS  += widget.h
+HEADERS  += widget.h \
+    ../GeneralAlgorithm/generalalgorithm_global.h \
+    ../GeneralAlgorithm/similarity.h
 
 FORMS    += widget.ui
+
+include(../base.pri)
+LIBS += -L$$PROJECT_LIBDIR -lGeneralAlgorithm
