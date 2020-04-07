@@ -16,6 +16,8 @@ using namespace std;
  * 匹配率： M = m/n
  * 相似度： Q = M^2*L = (m^2/n^2)*(r/n)
  * 将Q变形：Q = (m^2/r^2)*(r/n) = m^2/(r*n)
+ *
+ *
  */
 float SimilarityMatrix(const char *str1, const char *str2)
 {
